@@ -38,7 +38,6 @@ p
 {
 	height:200px;
 	width: 200px;
-	background-color: #eee;
 	float:left;
 	margin:30px;
 	position:relative;
@@ -60,7 +59,7 @@ p
 a
 {
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 18px;
 	padding-right:5px;
 	color:#cccccc;
 }
@@ -142,6 +141,36 @@ footer
 	top:10px;
 }
 
+#hangman
+
+{
+	background-image: url("../images/Ctrl-lego-red.jpg");
+}
+
+#RPG
+{
+	background-image: url("../images/RPG-game-red.jpg");
+}
+
+#trivia
+{
+	background-image: url("../images/Trivia-game-red.jpg");
+}
+
+#infoWidget
+{
+	background-image: url("../images/Info-widget-red.jpg");
+}
+
+#rock
+{
+	background-image: url("../images/Rock-paper-scissors-red.jpg");
+}
+
+#websites
+{
+	background-image: url("../images/Web-design-red.jpg");
+}
 
 
 h3
