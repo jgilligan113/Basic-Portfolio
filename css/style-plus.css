@@ -15,7 +15,8 @@ body
 	padding: 21px;
 	margin-left: 40px;
 	font-size: 24px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family:  'Abril Fatface', cursive;
+	letter-spacing: 3px;
 }
 
 .nav
@@ -25,10 +26,11 @@ body
 	padding:25px;
 	color:#777777;
 	border-bottom: 2px solid #cccccc;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	text-decoration: none;
 
 }
+
 p
 {
 	line-height: 120%;
@@ -47,22 +49,25 @@ p
 
 .gallerytxt
 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Abril Fatface', cursive;
 	color:white;
 	font-size: 18px;
-	background-color: #4aaaa5;
+	background-color: #666;
 	text-align: center;
 	padding:10px;
 	position: relative;
 	top:80px;
 
 }
+
 a
 {
 	text-decoration: none;
-	font-size: 14px;
+	font-size: 16px;
 	padding-right:5px;
 	color:#cccccc;
+	font-family:  'Abril Fatface', cursive;
+	letter-spacing: 1px;
 }
 
 #profile
@@ -75,7 +80,7 @@ a
 {
 	float:left;
 	background-color: white;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color:#777777;
 	padding:20px;
 	width:50%;
@@ -87,7 +92,7 @@ a
 {
 	float:left;
 	background-color:white;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color:#777777;
 	padding:20px;
 	width:250px;
@@ -103,10 +108,10 @@ footer
 	color:#fff;
 	padding-top:30px;
 	padding-bottom: 30px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 12px;
 	border-top: 4px solid #4aaaa5;
-	font-style:;
+	font-style:'Source Sans Pro', sans-serif;
 
 }
 #footer
@@ -148,10 +153,11 @@ h3
 {	
 color:#4aaaa5;
 border-bottom: 2px solid #cccccc;
-font-family: 'Georgia', Times, Times New Roman, serif;
+font-family: 'Abril Fatface', cursive;
 padding-bottom:15px;
 font-weight: bold;
 font-size: 20px;
 margin-bottom: 10px;
+letter-spacing: 3px;
 
 }
