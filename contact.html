@@ -4,45 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact Me</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-	<section>
-		<div class="name">
+	<div>
+		<header>
+			<div class="name">
 			<strong>Jessie Gilligan</strong>
+			</div>
+			<nav class="nav">
+				<a href="">About</a> <a href="">Contact</a> <a href="">Portfolio</a>
+			</nav>
+		</header>
+	</div>
+	<div class="content">
+		<div class="main-content">
+			<div>
+				<form>
+				<h3>
+					<strong>Contact Me</strong>
+				</h3>
+					Name<br><br>
+					<input type="text" name="name" style="width: 80%; height: 20px">
+					<br><br>
+					Email<br><br>
+					<input type="email" name="lastname" style="width: 80%; height: 20px">
+					<br><br>
+					Comment<br><br>
+					<input type="text" name="comment" style="width: 80%; height: 200px">
+					<br><br>
+					<input type="submit">
+				</form>
+			</div>
 		</div>
-		<div class="nav">
-			<a href="">About</a> <a href="">Contact</a> <a href="">Portfolio</a>
-			
-		</div>
-	</section>
-
-	<section class="main-content">
+	
 		<div>
+			<div class="connect">
 			<h3>
-				Contact Me
-			</h3>
-			<form>
-				Name<br><br>
-				<input type="text" name="name" style="width: 80%; height: 20px">
-				<br><br>
-				Email<br><br>
-				<input type="email" name="lastname" style="width: 80%; height: 20px">
-				<br><br>
-				Comment<br><br>
-				<input type="text" name="comment" style="width: 80%; height: 300px">
-				<br><br>
-			</form>	
-<input type="submit">
-</form>
-		</div>
-	</section>
-
-	<section>
-		<div class="connect">
-			<h3>
-				Connect with Me
+				<strong>Connect with Me</strong>
 			</h3>
 			<div id="thumbs">
 				<a href="https://github.com/jgilligan113"  target="-blank"><img src="assets/connect/github.png" alt="Jessie's Github" id="git"></a>
@@ -50,14 +51,13 @@
 				<a href="https://www.linkedin.com/in/jessicagilligan"  target="-blank"><img src="assets/connect/linkedin.png" alt="Jessie's Linkedin" id="link"></a>
 			</div>
 		</div>
-	</section>
+	</div>
 	
-	<section class="footer">
-		<div>
-			<footer>
+	
+	<div class="footer">
+		<footer>
 				<p style="opacity: 0.5;">&#169; Copyright 2017 Jessica Gilligan</p>
-			</footer>
-		</div>
-	</section>	
-	
+		</footer>
+	</div>	
+</div>	
 </body>
